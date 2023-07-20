@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4912F42A68CC9F001135DB /* HiddenTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4912F32A68CC9F001135DB /* HiddenTimerApp.swift */; };
+		DD4912F62A68CC9F001135DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4912F52A68CC9F001135DB /* ContentView.swift */; };
+		DD4912F82A68CCA1001135DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4912F72A68CCA1001135DB /* Assets.xcassets */; };
+		DD4912FB2A68CCA1001135DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4912FA2A68CCA1001135DB /* Preview Assets.xcassets */; };
+		DD4913052A68CCA2001135DB /* HiddenTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4913042A68CCA2001135DB /* HiddenTimerTests.swift */; };
+		DD49130F2A68CCA2001135DB /* HiddenTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49130E2A68CCA2001135DB /* HiddenTimerUITests.swift */; };
+		DD4913112A68CCA2001135DB /* HiddenTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4913102A68CCA2001135DB /* HiddenTimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4913012A68CCA2001135DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4912E82A68CC9F001135DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4912EF2A68CC9F001135DB;
+			remoteInfo = HiddenTimer;
+		};
+		DD49130B2A68CCA2001135DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4912E82A68CC9F001135DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4912EF2A68CC9F001135DB;
+			remoteInfo = HiddenTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4912F02A68CC9F001135DB /* HiddenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4912F32A68CC9F001135DB /* HiddenTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTimerApp.swift; sourceTree = "<group>"; };
+		DD4912F52A68CC9F001135DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD4912F72A68CCA1001135DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4912FA2A68CCA1001135DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD4913002A68CCA2001135DB /* HiddenTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4913042A68CCA2001135DB /* HiddenTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTimerTests.swift; sourceTree = "<group>"; };
+		DD49130A2A68CCA2001135DB /* HiddenTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD49130E2A68CCA2001135DB /* HiddenTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTimerUITests.swift; sourceTree = "<group>"; };
+		DD4913102A68CCA2001135DB /* HiddenTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4912ED2A68CC9F001135DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4912FD2A68CCA2001135DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4913072A68CCA2001135DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4912E72A68CC9F001135DB = {
+			isa = PBXGroup;
+			children = (
+				DD4912F22A68CC9F001135DB /* HiddenTimer */,
+				DD4913032A68CCA2001135DB /* HiddenTimerTests */,
+				DD49130D2A68CCA2001135DB /* HiddenTimerUITests */,
+				DD4912F12A68CC9F001135DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4912F12A68CC9F001135DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4912F02A68CC9F001135DB /* HiddenTimer.app */,
+				DD4913002A68CCA2001135DB /* HiddenTimerTests.xctest */,
+				DD49130A2A68CCA2001135DB /* HiddenTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4912F22A68CC9F001135DB /* HiddenTimer */ = {
+			isa = PBXGroup;
+			children = (
+				DD4912F32A68CC9F001135DB /* HiddenTimerApp.swift */,
+				DD4912F52A68CC9F001135DB /* ContentView.swift */,
+				DD4912F72A68CCA1001135DB /* Assets.xcassets */,
+				DD4912F92A68CCA1001135DB /* Preview Content */,
+			);
+			path = HiddenTimer;
+			sourceTree = "<group>";
+		};
+		DD4912F92A68CCA1001135DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD4912FA2A68CCA1001135DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD4913032A68CCA2001135DB /* HiddenTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4913042A68CCA2001135DB /* HiddenTimerTests.swift */,
+			);
+			path = HiddenTimerTests;
+			sourceTree = "<group>";
+		};
+		DD49130D2A68CCA2001135DB /* HiddenTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD49130E2A68CCA2001135DB /* HiddenTimerUITests.swift */,
+				DD4913102A68CCA2001135DB /* HiddenTimerUITestsLaunchTests.swift */,
+			);
+			path = HiddenTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4912EF2A68CC9F001135DB /* HiddenTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4913142A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimer" */;
+			buildPhases = (
+				DD4912EC2A68CC9F001135DB /* Sources */,
+				DD4912ED2A68CC9F001135DB /* Frameworks */,
+				DD4912EE2A68CC9F001135DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenTimer;
+			productName = HiddenTimer;
+			productReference = DD4912F02A68CC9F001135DB /* HiddenTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4912FF2A68CCA2001135DB /* HiddenTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4913172A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimerTests" */;
+			buildPhases = (
+				DD4912FC2A68CCA2001135DB /* Sources */,
+				DD4912FD2A68CCA2001135DB /* Frameworks */,
+				DD4912FE2A68CCA2001135DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4913022A68CCA2001135DB /* PBXTargetDependency */,
+			);
+			name = HiddenTimerTests;
+			productName = HiddenTimerTests;
+			productReference = DD4913002A68CCA2001135DB /* HiddenTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD4913092A68CCA2001135DB /* HiddenTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD49131A2A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimerUITests" */;
+			buildPhases = (
+				DD4913062A68CCA2001135DB /* Sources */,
+				DD4913072A68CCA2001135DB /* Frameworks */,
+				DD4913082A68CCA2001135DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD49130C2A68CCA2001135DB /* PBXTargetDependency */,
+			);
+			name = HiddenTimerUITests;
+			productName = HiddenTimerUITests;
+			productReference = DD49130A2A68CCA2001135DB /* HiddenTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4912E82A68CC9F001135DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DD4912EF2A68CC9F001135DB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DD4912FF2A68CCA2001135DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD4912EF2A68CC9F001135DB;
+					};
+					DD4913092A68CCA2001135DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD4912EF2A68CC9F001135DB;
+					};
+				};
+			};
+			buildConfigurationList = DD4912EB2A68CC9F001135DB /* Build configuration list for PBXProject "HiddenTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4912E72A68CC9F001135DB;
+			productRefGroup = DD4912F12A68CC9F001135DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4912EF2A68CC9F001135DB /* HiddenTimer */,
+				DD4912FF2A68CCA2001135DB /* HiddenTimerTests */,
+				DD4913092A68CCA2001135DB /* HiddenTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4912EE2A68CC9F001135DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4912FB2A68CCA1001135DB /* Preview Assets.xcassets in Resources */,
+				DD4912F82A68CCA1001135DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4912FE2A68CCA2001135DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4913082A68CCA2001135DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4912EC2A68CC9F001135DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4912F62A68CC9F001135DB /* ContentView.swift in Sources */,
+				DD4912F42A68CC9F001135DB /* HiddenTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4912FC2A68CCA2001135DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4913052A68CCA2001135DB /* HiddenTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4913062A68CCA2001135DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4913112A68CCA2001135DB /* HiddenTimerUITestsLaunchTests.swift in Sources */,
+				DD49130F2A68CCA2001135DB /* HiddenTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4913022A68CCA2001135DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4912EF2A68CC9F001135DB /* HiddenTimer */;
+			targetProxy = DD4913012A68CCA2001135DB /* PBXContainerItemProxy */;
+		};
+		DD49130C2A68CCA2001135DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4912EF2A68CC9F001135DB /* HiddenTimer */;
+			targetProxy = DD49130B2A68CCA2001135DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD4913122A68CCA2001135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4913132A68CCA2001135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4913152A68CCA2001135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiddenTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4913162A68CCA2001135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiddenTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD4913182A68CCA2001135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiddenTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HiddenTimer";
+			};
+			name = Debug;
+		};
+		DD4913192A68CCA2001135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiddenTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HiddenTimer";
+			};
+			name = Release;
+		};
+		DD49131B2A68CCA2001135DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiddenTimer;
+			};
+			name = Debug;
+		};
+		DD49131C2A68CCA2001135DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mushoku.HiddenTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiddenTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4912EB2A68CC9F001135DB /* Build configuration list for PBXProject "HiddenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4913122A68CCA2001135DB /* Debug */,
+				DD4913132A68CCA2001135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4913142A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4913152A68CCA2001135DB /* Debug */,
+				DD4913162A68CCA2001135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4913172A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4913182A68CCA2001135DB /* Debug */,
+				DD4913192A68CCA2001135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD49131A2A68CCA2001135DB /* Build configuration list for PBXNativeTarget "HiddenTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD49131B2A68CCA2001135DB /* Debug */,
+				DD49131C2A68CCA2001135DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4912E82A68CC9F001135DB /* Project object */;
+}
